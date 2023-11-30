@@ -126,10 +126,9 @@ header{
     background-color: red;
     font-size: 20px;
 }
-.contenedor{
+.card-container {
     display: flex;
-    justify-content: center;
-    position: relative;
+    justify-content: space-evenly;
 }
 nav{
     background-color: darkgoldenrod;
@@ -208,7 +207,7 @@ section{
   }
 
   button {
-    background-color: orange;
+    background-color: darkorange;
     color: green;
     padding: 10px 15px;
     border: none;
@@ -219,4 +218,21 @@ section{
   button:hover {
     background-color: red;
   }
-  
+  .tarjeta button{
+    margin: 10px;
+    padding: 8px;
+    background-color: darkmagenta;
+    color: darkgoldenrod;
+    font-size: 25px;
+    border: 1px color red;
+    border-radius: 10px;
+}
+.cursiva{
+    font-style: italic;
+}
+.impact{
+    font-family: Impact;
+}
+.fantasy{
+   font-family: 'Times New Roman';
+}
